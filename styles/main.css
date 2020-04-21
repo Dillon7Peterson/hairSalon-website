@@ -41,7 +41,7 @@ nav{
 .logo {
   width: 25%;
   border: 5px solid white;
-  height: 100px;
+  height: 100%;
   margin: -25;
   background-color: darkgreen;
   display: flex;
@@ -56,7 +56,7 @@ nav{
   height: 100%;
   display: grid;
   grid-template-rows: 27% 29% 44%;
-  border: 2px solid black;
+  background-color: rgb(179, 173, 173);
 
 }
 
@@ -68,7 +68,22 @@ nav{
   height: 100%;
   display: grid;
   grid-row: 1/2;
+  display: flex;
+  
+}
+
+.main-image {
   border: 2px solid black;
+  width: 50%;
+  height: 100%;
+}
+
+.headline {
+  display: block;
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+  
 }
 
 .second {
@@ -129,3 +144,59 @@ figure {
 .pic-c { grid-area: middle;}
 
 .pic-d { grid-area: right;}
+
+footer{
+  width: 100%;
+  height: 15%;
+  background-color: green;
+  display: grid;
+  grid-template-columns: 33% 34% 33%;
+  grid-template-rows: 33% 34% 33%;
+}
+
+.social-media {
+  display: grid;
+  grid-row: 2/3;
+  grid-column: 3/4;
+  width: 50%;
+  border: 2px solid white;
+  display: flex;
+  flex-direction: row;
+}
+
+.twitter {
+  /* display: flex;; */
+  width: 25%;
+  border: 2px solid white;
+  background-image: url(./barberShopImages/twitter-logo.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.facebook {
+  /* display: flex; */
+  width: 25%;
+  border: 2px solid white;
+  background-image: url(./barberShopImages/logo-facebook.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
+.google-plus {
+  /* display: flex; */
+  width: 25%;
+  border: 2px solid white;
+  background-image: url(./barberShopImages/google+-logo.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
+.pinterest {
+  width: 25%;
+  border: 2px solid white;
+  background-image: url(./barberShopImages/Pinterest-Logo.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
