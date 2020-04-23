@@ -1,13 +1,17 @@
-/* body {
-} */
+body{
+  width: 1400px;
+  height: auto;
+}
 
 .header {
+  padding-left: 100px;
+  width: 100%;
   height: 15%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: flex-end;
-  background-color: rgba(40, 79, 207, 0.692)
+  background-color: #4badb8;
 }
 
 /* h1 {
@@ -21,29 +25,29 @@
 } */
 
 .navbar {
-  width: 75%;
+  width: 50%;
   height: 20%;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding-bottom: 30px;
 }
 
 nav{
-  height: 80%;
-  padding-left: 20px;
-  padding-right: 20px;
-  background-color: whitesmoke;
-  font-style: oblique;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: auto;
+  height: auto;
+  color: white;
+  background-color: rgb(28, 19, 80);
 }
 
 .logo {
-  width: 25%;
-  border: 5px solid white;
+  width: 18%;
   height: 100%;
   margin: -25;
-  background-color: darkgreen;
+  background-color: rgb(28, 19, 80);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -52,11 +56,12 @@ nav{
 }
 
 .container {
-  width: 100%;
-  height: 100%;
+  margin-left: 100px;
+  margin-right: 100px;
+  width: auto;
   display: grid;
-  grid-template-rows: 27% 29% 44%;
-  background-color: rgb(179, 173, 173);
+  grid-template-rows: 30% 30% 40%;
+  background-color: rgb(250, 250, 250);
 
 }
 
@@ -65,17 +70,21 @@ nav{
 } */
 
 .first {
-  height: 100%;
+  margin-top: 50px;
+  margin-right: 50px;
+  width: 100%;
+  height: auto;
   display: grid;
   grid-row: 1/2;
   display: flex;
-  
+  border: 5px solid #5fb3bd;
 }
 
 .main-image {
-  border: 2px solid black;
-  width: 50%;
+  display: block;
   height: 100%;
+  width: 40%;
+  
 }
 
 .headline {
@@ -83,120 +92,200 @@ nav{
   display: flex;
   align-items: center;
   padding-left: 10%;
+  font-size: xx-large;
+  color: rgb(28, 19, 80);
   
 }
 
 .second {
+  margin-top: 50px;
   width: 100%;
+  height: auto;
   display: grid;
   grid-row: 2/3;
-  border: 2px solid black;
-  grid-template-areas:
-  'left . center . middle . right'
-  'left . center . middle . right'
-  'left . center . middle . right';
+  display: flex;
+  flex-direction: row;
 
+}
+
+.pic-a{
+  display: block;
+  height: auto;
+
+
+}
+
+.haircut1 {
+  display: block;
+  height: fit-content;
+  border: 2px solid #5fb3bd;
+}
+
+.haircut2 {
+  display: block;
+  height: fit-content;
+  border: 2px solid #5fb3bd;
+}
+
+.haircut3 {
+  display: block;
+  height: fit-content;
+  border: 2px solid #5fb3bd;
+}
+
+.haircut4 {
+  display: block;
+  height: fit-content;
+  border: 2px solid #5fb3bd;
 }
 
 .third {
+  margin-top: 50px;
   display: grid;
   grid-row: 3/4;
-  grid-template-areas:
-  'left-column left-column right-upper right-upper'
-  'left-column left-column right-upper right-upper'
-  'left-column left-column . .'
-  'left-column left-column right-lower right-lower'
-  'left-column left-column right-lower right-lower'
-
-
-}
-
-/* .section-two {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-} */
-
-figure {
-  width: 100%;
-  border: 5px solid rgb(85, 4, 4);
 }
 
 .left-column {
-  grid-area: left-column;
-  border: 5px solid black;
+  margin: 15px;
+  background-color: white;
+  border: 5px solid #5fb3bd;
+  width: 50%;
+  height: auto;
+}
+
+.logo-featured {
+  background-color: rgb(28, 19, 80);
+  color: white;
+  margin-top: -10px;
+  /* margin-left: 10px; */
+  width: 150px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.pic-featured {
+  display: flex;
+  flex-direction: row;
+}
+
+.featured-hair {
+  padding-left: 10%;
+  padding-top: 10%;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.text-featured {
+  padding: 20px;
+
+}
+
+.right-column {
+  margin: 15px;
+  padding-right: 20px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
 }
 
 .right-upper {
-  grid-area: right-upper;
-  border: 5px solid blue;
+  height: 45%;
+  background-color: #3398a3;
+  border: 5px solid #5fb3bd;
+  color: white;
+}
+
+.logo-hairstyle{
+  background-color: rgb(28, 19, 80);
+  color: white;
+  margin-top: -10px;
+  margin-left: 10px;
+  width: 150px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-rightUpper {
+  padding: 10px;
+  font-size: medium;
+}
+
+.mikeM {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
 .right-lower {
-  grid-area: right-lower;
-  border: 5px solid red;
+  margin-top: 20px;
+  height: 35%;
+  width: 100%;
+  background-color: #3398a3;
+  border: 5px solid #5fb3bd;
+  display: flex;
+  flex-direction: row;
+
 }
 
-.pic-a { grid-area: left;}
+.text-right-lower {
+  padding-left: 20%;
+  display: block;
+  color: white;
+  font-size: large;
+  display: flex;
+  align-items: center;
+}
 
-.pic-b { grid-area: center;}
+.skin-head {
+  margin: -20;
+}
 
-.pic-c { grid-area: middle;}
-
-.pic-d { grid-area: right;}
 
 footer{
   width: 100%;
   height: 15%;
-  background-color: green;
+  background-color: #4badb8;
   display: grid;
   grid-template-columns: 33% 34% 33%;
-  grid-template-rows: 33% 34% 33%;
+  grid-template-rows: 50% 50%;
+}
+
+.copyright {
+  color: white;
+  display: flex;
 }
 
 .social-media {
   display: grid;
   grid-row: 2/3;
   grid-column: 3/4;
-  width: 50%;
-  border: 2px solid white;
   display: flex;
   flex-direction: row;
 }
 
 .twitter {
-  /* display: flex;; */
-  width: 25%;
-  border: 2px solid white;
-  background-image: url(./barberShopImages/twitter-logo.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
+  margin-bottom: 20px;
+  width: 40px;
 }
 
 .facebook {
-  /* display: flex; */
-  width: 25%;
-  border: 2px solid white;
-  background-image: url(./barberShopImages/logo-facebook.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
+  margin-bottom: 20px;
+  width: 40px;
 
 }
 
 .google-plus {
-  /* display: flex; */
-  width: 25%;
-  border: 2px solid white;
-  background-image: url(./barberShopImages/google+-logo.jpeg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-
+  margin-bottom: 20px;
+  width: 40px;
 }
 
 .pinterest {
-  width: 25%;
-  border: 2px solid white;
-  background-image: url(./barberShopImages/Pinterest-Logo.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
+  margin-bottom: 20px;
+  width: 40px;
 }
