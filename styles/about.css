@@ -54,6 +54,8 @@ nav{
   background-color: rgb(153, 142, 142);
   display: flex;
   align-items: center;
+  /* line-height: 2.0;
+  font-size: small; */
 }
 
 h2 {
@@ -66,6 +68,8 @@ article {
   margin: 40px;
   width: 80%;
   font-size: medium;
+  line-height: 2.0;
+  font-size: small;
 }
 
 
@@ -113,3 +117,9 @@ footer{
   margin-bottom: 20px;
   width: 40px;
 }
+
+
+/* @media (max-width: 768px) {
+
+
+} */

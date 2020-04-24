@@ -45,25 +45,45 @@ nav{
   color: white;
 }
 
-main {
-  height: 100%;
+.container {
+  display: grid;
+  grid-template-columns: 65% 35%;
+  margin-top: 5%;
   margin-left: 15%;
   margin-right: 15%;
+  margin-bottom: 15%;
+
+}
+
+.left-column {
+  grid-column: 1/2;
+  padding-right: 10%;
   line-height: 2.0;
   font-size: small;
 }
 
-h3{
-  margin-top: 50px;
+.right-column {
+  grid-column: 2/3;
+  margin: 15px;
+  background-color: white;
+  border: 5px solid #5fb3bd;
+  height: auto;
+  line-height: 2.0;
+  font-size: small;
+
 }
 
-article {
-  margin-top: px;
+.recent-news {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-ul {
-  list-style: none;
+.white-column {
+  margin: 10px;
 }
+
+  
 
 
 
@@ -110,4 +130,30 @@ footer{
 .pinterest {
   margin-bottom: 20px;
   width: 40px;
+}
+
+
+@media (max-width: 768px) {
+ 
+ .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-column {
+  /* grid-row: 1/2; */
+  line-height: 2.0;
+  font-size: small;
+}
+
+.right-column {
+  /* grid-row: 2/3; */
+  background-color: white;
+  border: 5px solid #5fb3bd;
+  line-height: 2.0;
+  font-size: small;
+
+}
+
+
 }

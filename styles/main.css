@@ -46,33 +46,32 @@ nav{
 }
 
 .container {
-  margin-left: 100px;
-  margin-right: 100px;
-  width: auto;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
   display: grid;
   grid-template-rows: 30% 30% 40%;
   background-color: rgb(221, 221, 218);
 
 }
 
+p {
+  line-height: 2.0;
+  font-size: small;
+}
 
 
 .first {
-  margin-top: 50px;
-  margin-right: 50px;
-  width: 100%;
-  height: auto;
   display: grid;
   grid-row: 1/2;
   display: flex;
-  border: 5px solid #5fb3bd;
+  border: 2px solid #5fb3bd;
   background-color: white;
 }
 
 .main-image {
   display: block;
-  height: 100%;
-  width: 40%;
+  padding-right: 10px;
   
 }
 
@@ -170,6 +169,8 @@ nav{
 
 .text-featured {
   padding: 20px;
+  line-height: 2.0;
+  font-size: small;
 
 }
 
@@ -203,6 +204,8 @@ nav{
 .text-rightUpper {
   padding: 10px;
   font-size: medium;
+  line-height: 2.0;
+  font-size: small;
 }
 
 .mikeM {
@@ -229,6 +232,7 @@ nav{
   font-size: large;
   display: flex;
   align-items: center;
+  line-height: 2.0;
 }
 
 .skin-head {
@@ -277,4 +281,74 @@ footer{
 .pinterest {
   margin-bottom: 20px;
   width: 40px;
+}
+
+
+@media (max-width: 768px) {
+  body {
+    height: 100%;
+
+  }
+
+  .container {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-rows: 25% 40% 25% 10%;
+    background-color: rgb(221, 221, 218);
+  }
+
+    .first {
+      width: 75%;
+      grid-row: 1/2;
+      /* display: flex; */
+      border: 2px solid #5fb3bd;
+      background-color: white;
+    }
+
+    .second {
+      grid-row: 2/3;
+      display: grid;
+      grid-template-rows: 50% 50%;
+      grid-template-columns: 33% 33% 34%;
+      
+    }
+
+    .pic-a {
+      /* align-items: center;
+      justify-content: center; */
+      grid-row: 1/2;
+      grid-column: 1/2;
+    }
+
+    .pic-b {
+      grid-row: 1/2;
+      grid-column: 2/3;
+    }
+
+    .pic-c {
+      grid-row: 2/3;
+      grid-column: 1/2;
+
+    }
+
+    .pic-d {
+      grid-row: 2/3;
+      grid-column: 2/3;
+    }
+
+    .third {
+      grid-row: 3/4;
+      display: flex;
+      flex-direction: column;
+    }
+
+    footer {
+      background-color: rgb(221, 221, 218);
+    }
+
+
+
+
+  
 }
