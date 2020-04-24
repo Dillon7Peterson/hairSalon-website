@@ -1,0 +1,263 @@
+body{
+  width: 1400px;
+  height: auto;
+  background-color: rgb(221, 221, 218);
+}
+
+.header {
+  padding-left: 100px;
+  height: 15%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  background-color: #4badb8;
+}
+
+
+.navbar {
+  width: 50%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  justify-content: space-evenly;
+  padding-bottom: 30px;
+}
+
+nav{
+  padding-left: 10px;
+  padding-right: 10px;
+  width: auto;
+  height: auto;
+  color: white;
+  background-color: rgb(28, 19, 80);
+}
+
+.logo {
+  width: 18%;
+  height: 100%;
+  margin: -25;
+  background-color: rgb(28, 19, 80);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: white;
+}
+
+.gallery-container {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 12% 22% 22% 22% 22%;
+
+}
+
+h2 {
+  padding-left: 15%;
+  padding-top: 20px;
+}
+
+.row-1 {
+  /* margin: 30px; */
+  grid-row: 2/3;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.hairstyle1 {
+  display: block;
+  height: fit-content;
+  border: 2px solid #5fb3bd;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.hairstyle2 {
+  display: block;
+  height: fit-content;
+  border: 2px solid #5fb3bd;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.hairstyle3 {
+  display: block;
+  height: fit-content;
+  border: 2px solid #5fb3bd;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.hairstyle4 {
+  display: block;
+  height: fit-content;
+  border: 2px solid #5fb3bd;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+.row-2 {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  grid-row: 3/4;
+  
+}
+.hairstyle5 {
+  height: fit-content;
+  border: 2px solid #5fb3bd;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.hairstyle6 {
+  /* display: block; */
+  margin-left: 20px;
+  margin-right: 20px;
+  height: fit-content;
+  border: 2px solid #5fb3bd;
+}
+
+.hairstyle7 {
+  /* display: block; */
+  margin-left: 20px;
+  margin-right: 20px;
+  height: fit-content;
+  border: 2px solid #5fb3bd;
+}
+
+.hairstyle8 {
+  /* display: block; */
+  margin-left: 20px;
+  margin-right: 20px;
+  height: fit-content;
+  border: 2px solid #5fb3bd;
+}
+
+.row-3 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  grid-row: 4/5;
+}
+
+.hairstyle9 {
+  display: block;
+  height: fit-content;
+  border: 2px solid #5fb3bd;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.hairstyle10 {
+  display: block;
+  height: fit-content;
+  border: 2px solid #5fb3bd;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.hairstyle11 {
+  display: block;
+  height: fit-content;
+  border: 2px solid #5fb3bd;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.hairstyle12 {
+  display: block;
+  height: fit-content;
+  border: 2px solid #5fb3bd;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.row-4 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  grid-row: 5/6;
+}
+
+.hairstyle13 {
+  display: block;
+  height: fit-content;
+  border: 2px solid #5fb3bd;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.hairstyle14 {
+  display: block;
+  height: fit-content;
+  border: 2px solid #5fb3bd;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.hairstyle15 {
+  display: block;
+  height: fit-content;
+  border: 2px solid #5fb3bd;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.hairstyle16 {
+  display: block;
+  height: fit-content;
+  border: 2px solid #5fb3bd;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+
+footer{
+  width: 100%;
+  height: 15%;
+  background-color: #4badb8;
+  display: grid;
+  grid-template-columns: 33% 34% 33%;
+  grid-template-rows: 50% 50%;
+}
+
+.copyright {
+  color: white;
+  display: flex;
+}
+
+.social-media {
+  display: grid;
+  grid-row: 2/3;
+  grid-column: 3/4;
+  display: flex;
+  flex-direction: row;
+}
+
+.twitter {
+  margin-bottom: 20px;
+  width: 40px;
+}
+
+.facebook {
+  margin-bottom: 20px;
+  width: 40px;
+
+}
+
+.google-plus {
+  margin-bottom: 20px;
+  width: 40px;
+}
+
+.pinterest {
+  margin-bottom: 20px;
+  width: 40px;
+}
